@@ -2,6 +2,7 @@
 Seeed Studio Grove - LCD RGB Backlight; http://www.seeedstudio.com/depot/Grove-LCD-RGB-Backlight-p-1643.html
 Adafruit MicroSD card breakout board+; https://www.adafruit.com/products/254
 Adafruit DS1307 Real Time Clock breakout board kit; https://www.adafruit.com/products/264
+GY-80 (L3G4200D ADXL345 HMC5883L BMP085)
 
 
 PRO TRINKET
@@ -45,3 +46,4 @@ Rotary Encoder
   
 Real time clock:  I2C device
 LCD display:      I2C device
+10-DOF GY-80:     I2C device
