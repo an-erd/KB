@@ -56,7 +56,7 @@ LCD display:      I2C device
   LCD address                                       0x7C
   RGB address                                       0xC4
 10-DOF GY-80:     I2C device
-  	3 Axis Gyro ST Microelectronics L3G4200D   	    0x69
-    3 Axis Accelerometer: Analog Devices ADXL345  	0x53
-    3 Axis Magnetometer; Honeywell MC5883L 	        0x1E
-    Barometer + Thermometer; Bosch BMP085           0x77
+  3 Axis Gyro ST Microelectronics L3G4200D          0x69
+  3 Axis Accelerometer: Analog Devices ADXL345      0x53
+  3 Axis Magnetometer; Honeywell MC5883L            0x1E
+  Barometer + Thermometer; Bosch BMP085             0x77
