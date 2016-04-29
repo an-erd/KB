@@ -52,10 +52,10 @@ I2C devices
 ===========
 Real time clock:  
   RTC address                                       0x68
-LCD display:      I2C device
+LCD display:
   LCD address                                       0x7C
   RGB address                                       0xC4
-10-DOF GY-80:     I2C device
+10-DOF GY-80:
   3 Axis Gyro ST Microelectronics L3G4200D          0x69
   3 Axis Accelerometer: Analog Devices ADXL345      0x53
   3 Axis Magnetometer; Honeywell MC5883L            0x1E
