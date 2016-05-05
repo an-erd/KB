@@ -1,8 +1,10 @@
 # KB
-Seeed Studio Grove - LCD RGB Backlight; http://www.seeedstudio.com/depot/Grove-LCD-RGB-Backlight-p-1643.html
-Adafruit MicroSD card breakout board+; https://www.adafruit.com/products/254
-Adafruit DS1307 Real Time Clock breakout board kit; https://www.adafruit.com/products/264
-GY-80 (L3G4200D ADXL345 HMC5883L BMP085)
+Seeed Studio Grove - LCD RGB Backlight; http://www.seeedstudio.com/depot/Grove-LCD-RGB-Backlight-p-1643.html ; 5V
+Adafruit MicroSD card breakout board+; https://www.adafruit.com/products/254 ; 5V/3.3V 
+Adafruit DS1307 Real Time Clock breakout board kit; https://www.adafruit.com/products/264 ; 5V, 5/3.3V logic
+GY-80 (L3G4200D ADXL345 HMC5883L BMP085) ; 5V/3.3V
+Adafruit DRV2605L Haptic Motor Controller; https://www.adafruit.com/products/2305 ; 2-5.2V
+Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302 ; https://www.adafruit.com/products/2130 ; 2-5.5V
 
 Input power
 ===========
@@ -22,10 +24,10 @@ PRO TRINKET
   5~        ROT ENC LED Green
   6~        ROT ENC LED Blue
   7         (USB)
-  8                           - available
-  9~        ON/OFF Switch LED Blue
-  10        (SS)
-  11        (MOSI)
+  8         ON/OFF Switch LED Blue
+  9~        speaker PWM tone output
+  10~       (SS)
+  11~       (MOSI)
   12        (MISO)
   13        (SCK)
   A0        ROT ENC Pin A
@@ -67,3 +69,5 @@ LCD display:
   3 Axis Accelerometer: Analog Devices ADXL345      0x53
   3 Axis Magnetometer; Honeywell MC5883L            0x1E
   Barometer + Thermometer; Bosch BMP085             0x77
+Haptic Motor Controller
+  Controller address                                0x5A
