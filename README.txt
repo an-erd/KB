@@ -4,6 +4,13 @@ Adafruit MicroSD card breakout board+; https://www.adafruit.com/products/254
 Adafruit DS1307 Real Time Clock breakout board kit; https://www.adafruit.com/products/264
 GY-80 (L3G4200D ADXL345 HMC5883L BMP085)
 
+Input power
+===========
+Pro Trinket 5v, should work w/3.7V of LiPoly as well
+LCD         5V
+MicroSD     3.3/5V
+RTC         5V
+GY-80       3.3V
 
 PRO TRINKET
 ===========
