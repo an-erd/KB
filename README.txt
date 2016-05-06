@@ -4,15 +4,16 @@ Adafruit MicroSD card breakout board+; https://www.adafruit.com/products/254 ; 5
 Adafruit DS1307 Real Time Clock breakout board kit; https://www.adafruit.com/products/264 ; 5V, 5/3.3V logic
 GY-80 (L3G4200D ADXL345 HMC5883L BMP085) ; 5V/3.3V
 Adafruit DRV2605L Haptic Motor Controller; https://www.adafruit.com/products/2305 ; 2-5.2V
-Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302 ; https://www.adafruit.com/products/2130 ; 2-5.5V
+Adafruit Stereo 2.8W Class D Audio Amplifier - I2C Control AGC - TPA2016; https://www.adafruit.com/products/1712 ; 2.7-5.5V
 
-Input power
-===========
-Pro Trinket 5v, should work w/3.7V of LiPoly as well
-LCD         5V
-MicroSD     3.3/5V
-RTC         5V
-GY-80       3.3V
+Components and input power for specific board
+=============================================
+Pro Trinket 3V, w/LiPoly Backpack and 3,7 LiPoly battery attached to be chararged using USB
+MicroSD     3V from Pro Trinket
+GY-80       3V from Pro Trinket
+Haptic Con  3V from Pro Trinket
+LCD         5V (using a level shifter and step-up regulator)
+RTC         5V (using a level shifter and step-up regulator)
 
 PRO TRINKET
 ===========
@@ -71,3 +72,5 @@ LCD display:
   Barometer + Thermometer; Bosch BMP085             0x77
 Haptic Motor Controller
   Controller address                                0x5A
+Stereo Audio Amplifier
+  Controller address                                0xXXX
