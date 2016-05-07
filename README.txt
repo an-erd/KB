@@ -31,14 +31,14 @@ PRO TRINKET
   11~       (MOSI)
   12        (MISO)
   13        (SCK)
-  A0        ROT ENC Pin A
-  A1        ROT ENC Pin B
-  A2                          - available
-  A3                          - available
-  A4        (I2C SDA)
-  A5        (I2C SCL)
-  A6                          - available
-  A7                          - available
+  A0/14     ROT ENC Pin A
+  A1/15     ROT ENC Pin B
+  A2/16     ESP8266 RX
+  A3/17     ESP8266 TX
+  A4/18     (I2C SDA)
+  A5/19     (I2C SCL)
+  A6        - available, analog input only pin 
+  A7        - available, analog input only pin 
   
 Micro SD card breakout board
 ============================
