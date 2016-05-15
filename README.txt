@@ -74,3 +74,7 @@ Haptic Motor Controller
   Controller address                                0x5A
 Stereo Audio Amplifier
   Controller address                                0xXXX
+
+Additional information/Docks
+============================
+- https://github.com/jeelabs/esp-link
