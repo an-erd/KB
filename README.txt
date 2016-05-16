@@ -10,11 +10,10 @@ ESP8266, ESP-01
 Components and input power for specific board
 =============================================
 Pro Trinket 3V, w/LiPoly Backpack and 3,7 LiPoly battery attached to be chararged using USB
-LCD         5V (using a level shifter and step-up regulator)
 Haptic Con  3V from Pro Trinket
 Amplifier   3V from Pro Trinket
 MicroSD     3V from Pro Trinket
-
+LCD         5V (using a level shifter and step-up regulator)
 GY-80       3V from Pro Trinket
 RTC         5V (using a level shifter and step-up regulator)
 ESP8266     3V from Pro Trinket
@@ -65,7 +64,7 @@ Rotary Encoder
   
 PS/2 Keyboard
 =============
-  1         <->   PRO TRINKET 8 - DTÀTA
+  1         <->   PRO TRINKET 8 - DATA
   3         <->   GND
   4         <->   +5V
   5         <->   PRO TRINKET 3 / INT1 - CLK
@@ -98,3 +97,4 @@ Real time clock:
 Additional information/Docks
 ============================
 - https://github.com/jeelabs/esp-link
+- LED resistor (red led 65 Ohm)
