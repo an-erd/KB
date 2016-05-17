@@ -111,7 +111,7 @@ ESP-01                                  4x2
 Step-Up 5V                              3
 Haptic Controller 18      x   17        5       (Breite von ca. 6 Pins)
 
-I2C Buchse liegend                      4       (2mm RM)
+I2C Buchse liegend                      4       (2mm RM, für LCD)
 2x Lautsprecher Terminal                2
 Audio Out, Verbindung Stecker           3       (R+, L+, GND)
 Rotary Enc                              6       (A, B, C=GND, LED Red, Pushbutton, VSS)
