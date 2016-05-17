@@ -98,3 +98,23 @@ Additional information/Docks
 ============================
 - https://github.com/jeelabs/esp-link
 - LED resistor (red led 65 Ohm)
+
+Bord Sizes and Connector Board requirements
+===========================================
+                  Width   x   Length    #Pins
+Pro Trinket       38      x   18
+Micro SD          31,85   x   25,4      8
+GY-80                                   10
+RTC               24      x   30,5      5       (Breite von ca. 9 Pins)
+Amplifier         22      x   28        10
+ESP-01                                  4x2
+Step-Up 5V                              3
+Haptic Controller 18      x   17        5       (Breite von ca. 6 Pins)
+
+I2C Buchse liegend                      4       (2mm RM)
+2x Lautsprecher Terminal                2
+Audio Out, Verbindung Stecker           3       (R+, L+, GND)
+Rotary Enc                              6       (A, B, C=GND, LED Red, Pushbutton, VSS)
+PS2 Keyboard                            4
+Switch on/off                           am Backpack
+Power LED                               2
